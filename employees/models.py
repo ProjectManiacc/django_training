@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Employee(models.Model):
+    # id = models.AutoField(primary_key=True, db_index=True)
     first_name = models.CharField(max_length=40)
     last_name = models.CharField(max_length=100)
     photo = models.ImageField(upload_to='images')

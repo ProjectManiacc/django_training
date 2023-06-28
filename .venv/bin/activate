@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/piotrek/Desktop/django_training/.venv"
+VIRTUAL_ENV="/home/piotrek/Desktop/django_training_apps/.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
